@@ -1,0 +1,1 @@
+[2024-02-09 19:36:49,703]   INFO - ings.CurrentVersionTrackerImpl - Reset current settings version of project(s): , reason: project settings were changed by config persisting tasks which were executed on startup

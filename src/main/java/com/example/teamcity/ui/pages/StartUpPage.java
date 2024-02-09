@@ -4,10 +4,12 @@ package com.example.teamcity.ui.pages;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
+import com.example.teamcity.ui.Selectors;
 import lombok.Getter;
 
 import java.time.Duration;
 
+import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.element;
 @Getter
 public class StartUpPage extends Page{
@@ -17,8 +19,9 @@ public class StartUpPage extends Page{
     //private SelenideElement backFileUploaded = element("password");
     private SelenideElement proceedButton = element("input[id='proceedButton']");
     private SelenideElement continueButton = element("input[name='Continue']");
+    private SelenideElement header = element($("h1#header"));
 
-    public StartUpPage open(){
+    public StartUpPage open() {
         Selenide.open("/");
         return this;
     }
