@@ -12,6 +12,7 @@ public class CreateNewProject extends Page {
     private SelenideElement urlInput = element(Selectors.byId("url"));
     private SelenideElement urlError = element(Selectors.byId("error_url"));
     private SelenideElement projectNameInput = element(Selectors.byId("projectName"));
+    private SelenideElement projectNameErrorInput = element(Selectors.byId("error_projectName"));
     private SelenideElement buildTypeNameInput = element(Selectors.byId("buildTypeName"));
     public CreateNewProject open(String parentProjectId){
         Selenide.open("/admin/createObjectMenu.html?projectId=" +  parentProjectId + "&showMode=createProjectMenu&cameFromUrl=http%3A%2F%2Flocalhost%3A8111%2Ffavorite%2Fprojects#createFromUrl");

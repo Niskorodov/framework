@@ -9,7 +9,8 @@ import org.apache.http.HttpStatus;
 import org.testng.annotations.Test;
 
 public class CreateNewBuildConfigTest extends BaseUiTest{
-    @Test
+    @Test(groups = {"Regression"})
+
     public void authorizedUserShouldBeAbleCreateNewBuildConfig() {
         var testData = testDataStorage.addTestData();
         var url = "https://github.com/ArtemActum/myc-cypress";
@@ -55,6 +56,5 @@ public class CreateNewBuildConfigTest extends BaseUiTest{
 
         new UncheckedBuildConfig(Specifications.getSpec().authSpec(testData.getUser()))
                 .get(testData.getBuildType().getName()).then().statusCode(HttpStatus.SC_NOT_FOUND);
-
     }
 }

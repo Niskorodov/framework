@@ -1,8 +1,325 @@
-[2024-02-09 19:36:27,601]   INFO [ssing plugins 1] - ache.fs.impl.MirrorManagerImpl - No mapping file found at /data/teamcity_server/datadir/system/caches/svn/map, create a new one
-[2024-02-09 19:36:27,605]   INFO [ssing plugins 1] - ache.fs.impl.MirrorManagerImpl - Restore mapping from existing repositories
-[2024-02-09 19:36:27,607]   INFO [ssing plugins 1] - ache.fs.impl.MirrorManagerImpl - No existing repositories found
-[2024-02-09 19:36:32,921]   INFO [ssing plugins 2] - gers.vcs.git.MirrorManagerImpl - No mapping file found at /data/teamcity_server/datadir/system/caches/git/map, create a new one
-[2024-02-09 19:36:32,925]   INFO [ssing plugins 2] - gers.vcs.git.MirrorManagerImpl - Restore mapping from existing repositories
-[2024-02-09 19:36:32,926]   INFO [ssing plugins 2] - gers.vcs.git.MirrorManagerImpl - No existing repositories found
-[2024-02-09 19:36:34,105]   INFO [ssing plugins 1] -   jetbrains.buildServer.VCS.P4 - PerforceCommitHookController has been initialized
-[2024-02-09 19:36:34,637]   INFO [ssing plugins 1] -      jetbrains.buildServer.VCS - Server-wide hg path is not set, will use path from the VCS root settings
+[2024-02-19 18:24:50,560]   INFO [ssing plugins 2] - gers.vcs.git.MirrorManagerImpl - No mapping file found at /data/teamcity_server/datadir/system/caches/git/map, create a new one
+[2024-02-19 18:24:50,566]   INFO [ssing plugins 2] - gers.vcs.git.MirrorManagerImpl - Restore mapping from existing repositories
+[2024-02-19 18:24:50,567]   INFO [ssing plugins 2] - gers.vcs.git.MirrorManagerImpl - No existing repositories found
+[2024-02-19 18:24:55,656]   INFO [ssing plugins 3] -   jetbrains.buildServer.VCS.P4 - PerforceCommitHookController has been initialized
+[2024-02-19 18:24:56,770]   INFO [ssing plugins 2] -      jetbrains.buildServer.VCS - Server-wide hg path is not set, will use path from the VCS root settings
+[2024-02-19 18:24:59,281]   INFO [ssing plugins 2] - ache.fs.impl.MirrorManagerImpl - No mapping file found at /data/teamcity_server/datadir/system/caches/svn/map, create a new one
+[2024-02-19 18:24:59,281]   INFO [ssing plugins 2] - ache.fs.impl.MirrorManagerImpl - Restore mapping from existing repositories
+[2024-02-19 18:24:59,282]   INFO [ssing plugins 2] - ache.fs.impl.MirrorManagerImpl - No existing repositories found
+[2024-02-19 18:26:26,791]   WARN [io-8111-exec-15] -      jetbrains.buildServer.VCS - Property with null value returned by VCS plugin: jetbrains.git, property name: username
+[2024-02-19 18:26:29,155]   WARN [io-8111-exec-15] -      jetbrains.buildServer.VCS - 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+---%<--- (text/html; charset=utf-8)
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+  >
+
+
+
+
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+  
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-0eace2597ca3.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-a167e256da9c.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet
+---%<---
+!
+
+[2024-02-19 18:26:29,156]   INFO [io-8111-exec-15] -      jetbrains.buildServer.VCS - Failed to recognize https://github.com/ArtemActum/myc-cypress as a Mercurial VCS root: jetbrains.buildServer.vcs.VcsException: 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.
+stderr: abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+<see complete output of the command in teamcity-vcs.log file> (enable debug to see stacktrace)
+[2024-02-19 18:26:33,518]   WARN [nio-8111-exec-1] -      jetbrains.buildServer.VCS - Property with null value returned by VCS plugin: jetbrains.git, property name: username
+[2024-02-19 18:26:34,524]   WARN [nio-8111-exec-1] -      jetbrains.buildServer.VCS - 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+---%<--- (text/html; charset=utf-8)
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+  >
+
+
+
+
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+  
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-0eace2597ca3.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-a167e256da9c.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet
+---%<---
+!
+
+[2024-02-19 18:26:34,524]   INFO [nio-8111-exec-1] -      jetbrains.buildServer.VCS - Failed to recognize https://github.com/ArtemActum/myc-cypress as a Mercurial VCS root: jetbrains.buildServer.vcs.VcsException: 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.
+stderr: abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+<see complete output of the command in teamcity-vcs.log file> (enable debug to see stacktrace)
+[2024-02-19 18:26:43,272]   INFO [anges monitor 1] -      jetbrains.buildServer.VCS - Found 1 VCS root instances where periodical checking for changes is required
+[2024-02-19 18:26:59,648]   WARN [io-8111-exec-15] -      jetbrains.buildServer.VCS - Property with null value returned by VCS plugin: jetbrains.git, property name: username
+[2024-02-19 18:27:01,737]   WARN [io-8111-exec-15] -      jetbrains.buildServer.VCS - 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+---%<--- (text/html; charset=utf-8)
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+  >
+
+
+
+
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+  
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-0eace2597ca3.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-a167e256da9c.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet
+---%<---
+!
+
+[2024-02-19 18:27:01,738]   INFO [io-8111-exec-15] -      jetbrains.buildServer.VCS - Failed to recognize https://github.com/ArtemActum/myc-cypress as a Mercurial VCS root: jetbrains.buildServer.vcs.VcsException: 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.
+stderr: abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+<see complete output of the command in teamcity-vcs.log file> (enable debug to see stacktrace)
+[2024-02-19 18:27:09,563]   WARN [io-8111-exec-14] -      jetbrains.buildServer.VCS - Property with null value returned by VCS plugin: jetbrains.git, property name: username
+[2024-02-19 18:27:11,595]   WARN [io-8111-exec-14] -      jetbrains.buildServer.VCS - 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+---%<--- (text/html; charset=utf-8)
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+  >
+
+
+
+
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+  
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-0eace2597ca3.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-a167e256da9c.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet
+---%<---
+!
+
+[2024-02-19 18:27:11,596]   INFO [io-8111-exec-14] -      jetbrains.buildServer.VCS - Failed to recognize https://github.com/ArtemActum/myc-cypress as a Mercurial VCS root: jetbrains.buildServer.vcs.VcsException: 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.
+stderr: abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+<see complete output of the command in teamcity-vcs.log file> (enable debug to see stacktrace)
+[2024-02-19 18:27:49,179]   WARN [io-8111-exec-20] -      jetbrains.buildServer.VCS - Property with null value returned by VCS plugin: jetbrains.git, property name: username
+[2024-02-19 18:27:51,236]   WARN [io-8111-exec-20] -      jetbrains.buildServer.VCS - 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+---%<--- (text/html; charset=utf-8)
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+  >
+
+
+
+
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+  
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-0eace2597ca3.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-a167e256da9c.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet
+---%<---
+!
+
+[2024-02-19 18:27:51,237]   INFO [io-8111-exec-20] -      jetbrains.buildServer.VCS - Failed to recognize https://github.com/ArtemActum/myc-cypress as a Mercurial VCS root: jetbrains.buildServer.vcs.VcsException: 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.
+stderr: abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+<see complete output of the command in teamcity-vcs.log file> (enable debug to see stacktrace)
+[2024-02-19 18:27:53,480]   INFO [anges monitor 1] -      jetbrains.buildServer.VCS - Found 1 VCS root instances where periodical checking for changes is required
+[2024-02-19 18:27:59,975]   WARN [io-8111-exec-13] -      jetbrains.buildServer.VCS - Property with null value returned by VCS plugin: jetbrains.git, property name: username
+[2024-02-19 18:28:01,089]   WARN [io-8111-exec-13] -      jetbrains.buildServer.VCS - 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+---%<--- (text/html; charset=utf-8)
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+  >
+
+
+
+
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+  
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-0eace2597ca3.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-a167e256da9c.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet
+---%<---
+!
+
+[2024-02-19 18:28:01,090]   INFO [io-8111-exec-13] -      jetbrains.buildServer.VCS - Failed to recognize https://github.com/ArtemActum/myc-cypress as a Mercurial VCS root: jetbrains.buildServer.vcs.VcsException: 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.
+stderr: abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+<see complete output of the command in teamcity-vcs.log file> (enable debug to see stacktrace)
+[2024-02-19 18:28:13,530]   INFO [anges monitor 1] -      jetbrains.buildServer.VCS - Found 1 VCS root instances where periodical checking for changes is required
+[2024-02-19 18:28:21,756]   WARN [io-8111-exec-23] -      jetbrains.buildServer.VCS - Property with null value returned by VCS plugin: jetbrains.git, property name: username
+[2024-02-19 18:28:24,113]   WARN [io-8111-exec-23] -      jetbrains.buildServer.VCS - 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+---%<--- (text/html; charset=utf-8)
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+  >
+
+
+
+
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+  
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-0eace2597ca3.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-a167e256da9c.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet
+---%<---
+!
+
+[2024-02-19 18:28:24,114]   INFO [io-8111-exec-23] -      jetbrains.buildServer.VCS - Failed to recognize https://github.com/ArtemActum/myc-cypress as a Mercurial VCS root: jetbrains.buildServer.vcs.VcsException: 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.
+stderr: abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+<see complete output of the command in teamcity-vcs.log file> (enable debug to see stacktrace)
+[2024-02-19 18:28:31,517]   WARN [io-8111-exec-21] -      jetbrains.buildServer.VCS - Property with null value returned by VCS plugin: jetbrains.git, property name: username
+[2024-02-19 18:28:32,562]   WARN [io-8111-exec-21] -      jetbrains.buildServer.VCS - 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+---%<--- (text/html; charset=utf-8)
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html
+  lang="en"
+  
+  data-color-mode="auto" data-light-theme="light" data-dark-theme="dark"
+  data-a11y-animated-images="system" data-a11y-link-underlines="true"
+  >
+
+
+
+
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+
+  
+
+  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/light-0eace2597ca3.css" /><link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark-a167e256da9c.css" /><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet
+---%<---
+!
+
+[2024-02-19 18:28:32,563]   INFO [io-8111-exec-21] -      jetbrains.buildServer.VCS - Failed to recognize https://github.com/ArtemActum/myc-cypress as a Mercurial VCS root: jetbrains.buildServer.vcs.VcsException: 'hg --config ui.interactive=False identify https://github.com/ArtemActum/myc-cypress' command failed.
+stderr: abort: 'https://github.com/ArtemActum/myc-cypress' does not appear to be an hg repository:
+<see complete output of the command in teamcity-vcs.log file> (enable debug to see stacktrace)
+[2024-02-19 18:29:03,677]   INFO [anges monitor 1] -      jetbrains.buildServer.VCS - Found 1 VCS root instances where periodical checking for changes is required
+[2024-02-19 18:29:23,751]   INFO [anges monitor 1] -      jetbrains.buildServer.VCS - Found 1 VCS root instances where periodical checking for changes is required

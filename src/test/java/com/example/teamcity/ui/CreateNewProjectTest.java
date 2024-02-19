@@ -66,7 +66,7 @@ public class CreateNewProjectTest extends BaseUiTest {
                 .createProjectByUrl(url)
                 .clearNameInput()
                 .setupProjectWithoutName(testData.getBuildType().getName())
-                .getProjectNameInput().shouldHave(Condition.text(PROJECT_CREATION_WITHOUT_NAME));
+                .getProjectNameErrorInput().shouldHave(Condition.text(PROJECT_CREATION_WITHOUT_NAME));
 
         new UncheckedProject(Specifications.getSpec().authSpec(testData.getUser()))
                 .get(testData.getProject().getName())

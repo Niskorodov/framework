@@ -1,1 +1,6 @@
-[2024-02-09 19:35:59,331]   INFO [id: MAIN_SERVER] - etbrains.buildServer.WEBSOCKET - WebSocket feature is supported for Apache Tomcat/9.0.83
+[2024-02-19 18:24:26,045]   INFO [id: MAIN_SERVER] - etbrains.buildServer.WEBSOCKET - WebSocket feature is supported for Apache Tomcat/9.0.83
+[2024-02-19 18:27:04,237]   WARN [nio-8111-exec-6] - etbrains.buildServer.WEBSOCKET - Closing session 9: User logs out
+[2024-02-19 18:27:19,375]   INFO [nio-8111-exec-9] - etbrains.buildServer.WEBSOCKET - Failed to read/write WebSocket message for session session 'd' (user with id=16): java.io.EOFException (enable debug to see stacktrace)
+[2024-02-19 18:27:53,547]   WARN [io-8111-exec-16] - etbrains.buildServer.WEBSOCKET - Closing session 10: User logs out
+[2024-02-19 18:28:26,006]   WARN [io-8111-exec-25] - etbrains.buildServer.WEBSOCKET - Closing session 19: User logs out
+[2024-02-19 18:28:36,233]   WARN [io-8111-exec-10] - etbrains.buildServer.WEBSOCKET - Closing session 1c: User logs out

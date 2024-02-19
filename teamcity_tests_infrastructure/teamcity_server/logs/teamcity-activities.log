@@ -1,1 +1,165 @@
-[2024-02-09 19:36:50,813]   INFO - tbrains.buildServer.ACTIVITIES - Server Started
+[2024-02-19 18:25:13,571]   INFO - tbrains.buildServer.ACTIVITIES - Server Started
+[2024-02-19 18:25:43,519]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=1
+[2024-02-19 18:25:43,522]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=1" was created by "user with id=1"
+[2024-02-19 18:25:43,557]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=1" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:44,662]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_YsFfWknFqr {id=test_uhtWvcNQcx, internal id=project1}" was created by "user with id=1"
+[2024-02-19 18:25:46,825]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_YsFfWknFqr" was removed by "user with id=1"
+[2024-02-19 18:25:46,922]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=1" was deleted by "user with id=1"
+[2024-02-19 18:25:47,000]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=2
+[2024-02-19 18:25:47,001]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=2" was created by "user with id=2"
+[2024-02-19 18:25:47,005]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=2" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:47,078]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_YvibmKUIXm {id=test_JdrQvnwOMc, internal id=project2}" was created by "user with id=2"
+[2024-02-19 18:25:47,266]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_YvibmKUIXm" was removed by "user with id=2"
+[2024-02-19 18:25:47,314]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=2" was deleted by "user with id=2"
+[2024-02-19 18:25:47,537]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=3
+[2024-02-19 18:25:47,539]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=3" was created by "user with id=3"
+[2024-02-19 18:25:47,545]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=3" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:47,613]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_nnNtEDkzcA {id=test_hjYUaGTsHsiIwJXUWZxOsdcIIJeqcSHwkSDVtBHMOSWUpMxZzGkwRMNhOrmACDKFoTcYvWiHPrjdPyYKpqRXeGFTteZPpCGgSXIwpLSapCvJyJEtTbGwHKMJVgAdtndgOPIOUWCBoutCipzBtDXHggOsAUkkozqtvfCxNsOFzaaVGThREpQLkAKBDIxQDKhytzPIyzkpzsYuQPsHhutUElxLdrr, internal id=project3}" was created by "user with id=3"
+[2024-02-19 18:25:47,909]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=3" was deleted by "user with id=3"
+[2024-02-19 18:25:47,978]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=4
+[2024-02-19 18:25:47,979]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=4" was created by "user with id=4"
+[2024-02-19 18:25:47,985]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=4" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:48,046]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_sNpSzDzyJa {id=test_ktPDVFDYmCGwpFHsSDzGBgIfQUokwStgZOOqZNGTIBuFZOnhIsTtnPKQVDawpmWqSUCeUkNSsllWkZclaDJUqaicZLACfQWdopzAQHjEfgwGmRbIGSEJLBWVjIyPxxPofTMpgPVyDfubAkzpJVkuetGMhORswNbbEIHdAwtXUIMGPAmPatSSeuqjYxKOXZjzPSWzaWeOXVsILRrhyaBfdZHqHEez, internal id=project4}" was created by "user with id=4"
+[2024-02-19 18:25:48,274]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=4" was deleted by "user with id=4"
+[2024-02-19 18:25:48,361]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=5
+[2024-02-19 18:25:48,362]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=5" was created by "user with id=5"
+[2024-02-19 18:25:48,369]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=5" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:48,451]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_GMKoWdMSKf {id=TestGMKoWdMSKf, internal id=project5}" was created by "user with id=5"
+[2024-02-19 18:25:48,754]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=5" was deleted by "user with id=5"
+[2024-02-19 18:25:48,820]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=6
+[2024-02-19 18:25:48,821]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=6" was created by "user with id=6"
+[2024-02-19 18:25:48,826]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=6" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:49,205]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=6" was deleted by "user with id=6"
+[2024-02-19 18:25:49,261]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=7
+[2024-02-19 18:25:49,262]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=7" was created by "user with id=7"
+[2024-02-19 18:25:49,266]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=7" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:49,643]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=7" was deleted by "user with id=7"
+[2024-02-19 18:25:49,688]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_uMqglquRAT {id=test_bGxwscIahb, internal id=project6}" was created by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:49,757]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=8
+[2024-02-19 18:25:49,758]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=8" was created by "user with id=8"
+[2024-02-19 18:25:49,763]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""Project administrator" {id=PROJECT_ADMIN}" was added to "user with id=8" in "test_uMqglquRAT {id=test_bGxwscIahb, internal id=project6}" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:49,999]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_create: "test_uMqglquRAT / test_zmVvDYvEMd {id=test_ZGgozbbLHK/bt1}" was created by "user with id=8"
+[2024-02-19 18:25:50,767]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_uMqglquRAT" was removed by "user with id=8"
+[2024-02-19 18:25:50,841]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_FHVLRMcCVX {id=test_lpEisAFlFf, internal id=project7}" was created by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:50,879]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_SSyOLFULGh {id=test_lLYrMbpIlm, internal id=project8}" was created by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:50,937]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=9
+[2024-02-19 18:25:50,937]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=9" was created by "user with id=9"
+[2024-02-19 18:25:50,941]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""Project administrator" {id=PROJECT_ADMIN}" was added to "user with id=9" in "test_FHVLRMcCVX {id=test_lpEisAFlFf, internal id=project7}" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:50,986]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=10
+[2024-02-19 18:25:50,986]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=10" was created by "user with id=10"
+[2024-02-19 18:25:50,990]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""Project administrator" {id=PROJECT_ADMIN}" was added to "user with id=10" in "test_SSyOLFULGh {id=test_lLYrMbpIlm, internal id=project8}" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:51,032]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_create: "test_FHVLRMcCVX / test_qSWihkdXfJ {id=test_jAWrkWTuMI/bt2}" was created by "user with id=10"
+[2024-02-19 18:25:51,452]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_FHVLRMcCVX" was removed by "user with id=9"
+[2024-02-19 18:25:51,522]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_SSyOLFULGh" was removed by "user with id=10"
+[2024-02-19 18:25:51,605]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=11
+[2024-02-19 18:25:51,605]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=11" was created by "user with id=11"
+[2024-02-19 18:25:51,611]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=11" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:51,654]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_rHsHGPidRM {id=test_DuyJxwsTXJ, internal id=project9}" was created by "user with id=11"
+[2024-02-19 18:25:52,128]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_rHsHGPidRM" was removed by "user with id=11"
+[2024-02-19 18:25:52,175]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=11" was deleted by "user with id=11"
+[2024-02-19 18:25:52,229]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_SionWnuwdH {id=test_AgrgbaCZEC, internal id=project10}" was created by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:25:53,156]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=12
+[2024-02-19 18:25:53,156]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=12" was created by "user with id=12"
+[2024-02-19 18:25:53,159]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=12" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:26:27,146]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=12" was deleted by "user with id=12"
+[2024-02-19 18:26:27,201]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=13
+[2024-02-19 18:26:27,202]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=13" was created by "user with id=13"
+[2024-02-19 18:26:27,207]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=13" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:26:39,147]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_NiAuussiOT {id=TestNiAuussiOT, internal id=project11}" was created by "user with id=13"
+[2024-02-19 18:26:39,177]   INFO - s.buildServer.ACTIVITIES.AUDIT - vcs_root_create: VCS root ""https://github.com/ArtemActum/myc-cypress#refs/heads/main" {internal id=1, id=TestNiAuussiOT_HttpsGithubComArtemActumMycCypressRefsHeadsMain, description: "https://github.com/ArtemActum/myc-cypress#refs/heads/main"}" was created by "user with id=13" with comment "In project: test_NiAuussiOT"
+[2024-02-19 18:26:39,184]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_create: "test_NiAuussiOT / test_nwdDBoWJNy {id=TestNiAuussiOT_TestNwdDBoWJNy/bt3}" was created by "user with id=13"
+[2024-02-19 18:26:54,774]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=13" was deleted by "user with id=13"
+[2024-02-19 18:26:54,808]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=14
+[2024-02-19 18:26:54,808]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=14" was created by "user with id=14"
+[2024-02-19 18:26:54,811]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=14" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:04,142]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=14" was deleted by "user with id=14"
+[2024-02-19 18:27:04,198]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=15
+[2024-02-19 18:27:04,199]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=15" was created by "user with id=15"
+[2024-02-19 18:27:04,205]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=15" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:13,029]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=15" was deleted by "user with id=15"
+[2024-02-19 18:27:13,081]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=16
+[2024-02-19 18:27:13,081]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=16" was created by "user with id=16"
+[2024-02-19 18:27:13,084]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=16" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:18,946]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=16" was deleted by "user with id=16"
+[2024-02-19 18:27:32,413]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=17
+[2024-02-19 18:27:32,414]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=17" was created by "user with id=17"
+[2024-02-19 18:27:32,416]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=17" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:32,694]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_BwvFqsxswL {id=test_ClMDecfdFT, internal id=project12}" was created by "user with id=17"
+[2024-02-19 18:27:34,074]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_BwvFqsxswL" was removed by "user with id=17"
+[2024-02-19 18:27:34,128]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=17" was deleted by "user with id=17"
+[2024-02-19 18:27:34,178]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=18
+[2024-02-19 18:27:34,178]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=18" was created by "user with id=18"
+[2024-02-19 18:27:34,181]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=18" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:34,225]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_wqlYGtuOax {id=test_bqNqmmsLoQ, internal id=project13}" was created by "user with id=18"
+[2024-02-19 18:27:34,344]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_wqlYGtuOax" was removed by "user with id=18"
+[2024-02-19 18:27:34,380]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=18" was deleted by "user with id=18"
+[2024-02-19 18:27:34,426]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=19
+[2024-02-19 18:27:34,427]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=19" was created by "user with id=19"
+[2024-02-19 18:27:34,430]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=19" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:34,477]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_SXPHlDPtnd {id=test_phRSyKngesclqMrqYCcwqIjuNgApADNHWChsaQOtZKcyxhDhocYLmSSUAofatthPWAsueOzLZwylZyTSQuoTMRKJzMEuShBhKWbxcVdMwZGxArpkjnAeABvNkslSJiqJavVOWnEtkUxTyJOBuXasnJCVpaRnplVGkimxKyosJufbBUuoWbLyxnxzNrtWKyvaaEKUBUBEmyaySTdSxZAuPkeMQQb, internal id=project14}" was created by "user with id=19"
+[2024-02-19 18:27:34,647]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=19" was deleted by "user with id=19"
+[2024-02-19 18:27:34,688]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=20
+[2024-02-19 18:27:34,689]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=20" was created by "user with id=20"
+[2024-02-19 18:27:34,692]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=20" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:34,735]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_wfgqvuDSiW {id=test_nUSUBIzgQSnGxUKOUzQezCtzMriowRLVelOWkqAmYHPZVgOtpBZnLIMqtuykHlvBEDVQtdfgaBfcRgFqSwVyptewpgMBLrCeYUACnSEnaLNDtleMPRYBNyKfDoZNgzEEvwTYilGdfGOSUVvmSjfWGoQOEVbWnsZGmpkzuefYjCliGGvPIsaFGTeubPJsVPwdpRrnaEXLdEFkkFOomRozItsPeyUV, internal id=project15}" was created by "user with id=20"
+[2024-02-19 18:27:34,894]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=20" was deleted by "user with id=20"
+[2024-02-19 18:27:34,931]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=21
+[2024-02-19 18:27:34,931]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=21" was created by "user with id=21"
+[2024-02-19 18:27:34,935]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=21" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:34,973]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_wgxxMbPiOv {id=TestWgxxMbPiOv, internal id=project16}" was created by "user with id=21"
+[2024-02-19 18:27:35,187]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=21" was deleted by "user with id=21"
+[2024-02-19 18:27:35,226]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=22
+[2024-02-19 18:27:35,226]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=22" was created by "user with id=22"
+[2024-02-19 18:27:35,229]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=22" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:35,509]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=22" was deleted by "user with id=22"
+[2024-02-19 18:27:35,547]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=23
+[2024-02-19 18:27:35,548]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=23" was created by "user with id=23"
+[2024-02-19 18:27:35,550]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=23" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:35,784]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=23" was deleted by "user with id=23"
+[2024-02-19 18:27:35,812]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_dNEihCdIur {id=test_iPhXHXlniR, internal id=project17}" was created by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:35,855]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=24
+[2024-02-19 18:27:35,856]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=24" was created by "user with id=24"
+[2024-02-19 18:27:35,859]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""Project administrator" {id=PROJECT_ADMIN}" was added to "user with id=24" in "test_dNEihCdIur {id=test_iPhXHXlniR, internal id=project17}" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:35,896]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_create: "test_dNEihCdIur / test_hHUuEhlbuq {id=test_dWisvMXacs/bt4}" was created by "user with id=24"
+[2024-02-19 18:27:36,125]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_dNEihCdIur" was removed by "user with id=24"
+[2024-02-19 18:27:36,173]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_iJehtyjqNO {id=test_gvLTBFgRyP, internal id=project18}" was created by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:36,205]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_PqdtFEqbDc {id=test_xEloFcRift, internal id=project19}" was created by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:36,247]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=25
+[2024-02-19 18:27:36,248]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=25" was created by "user with id=25"
+[2024-02-19 18:27:36,250]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""Project administrator" {id=PROJECT_ADMIN}" was added to "user with id=25" in "test_iJehtyjqNO {id=test_gvLTBFgRyP, internal id=project18}" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:36,280]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=26
+[2024-02-19 18:27:36,281]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=26" was created by "user with id=26"
+[2024-02-19 18:27:36,283]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""Project administrator" {id=PROJECT_ADMIN}" was added to "user with id=26" in "test_PqdtFEqbDc {id=test_xEloFcRift, internal id=project19}" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:36,309]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_create: "test_iJehtyjqNO / test_FFDmIDeiQM {id=test_jqoGLNWPae/bt5}" was created by "user with id=26"
+[2024-02-19 18:27:36,633]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_iJehtyjqNO" was removed by "user with id=25"
+[2024-02-19 18:27:36,692]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_PqdtFEqbDc" was removed by "user with id=26"
+[2024-02-19 18:27:36,745]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=27
+[2024-02-19 18:27:36,746]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=27" was created by "user with id=27"
+[2024-02-19 18:27:36,748]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=27" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:36,778]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_JpwDMLokaY {id=test_vVaVnvjVbp, internal id=project20}" was created by "user with id=27"
+[2024-02-19 18:27:37,163]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_JpwDMLokaY" was removed by "user with id=27"
+[2024-02-19 18:27:37,189]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=27" was deleted by "user with id=27"
+[2024-02-19 18:27:37,213]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_EGfRgxdGai {id=test_lvxJSKqriu, internal id=project21}" was created by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:37,708]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=28
+[2024-02-19 18:27:37,709]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=28" was created by "user with id=28"
+[2024-02-19 18:27:37,711]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=28" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:27:53,481]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=28" was deleted by "user with id=28"
+[2024-02-19 18:27:53,522]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=29
+[2024-02-19 18:27:53,523]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=29" was created by "user with id=29"
+[2024-02-19 18:27:53,525]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=29" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:28:04,950]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_ANblrgEyTH {id=TestANblrgEyTH, internal id=project22}" was created by "user with id=29"
+[2024-02-19 18:28:04,953]   INFO - s.buildServer.ACTIVITIES.AUDIT - vcs_root_create: VCS root ""https://github.com/ArtemActum/myc-cypress#refs/heads/main" {internal id=2, id=TestANblrgEyTH_HttpsGithubComArtemActumMycCypressRefsHeadsMain, description: "https://github.com/ArtemActum/myc-cypress#refs/heads/main"}" was created by "user with id=29" with comment "In project: test_ANblrgEyTH"
+[2024-02-19 18:28:04,957]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_create: "test_ANblrgEyTH / test_FnYAwAtpNV {id=TestANblrgEyTH_TestFnYAwAtpNV/bt6}" was created by "user with id=29"
+[2024-02-19 18:28:16,061]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=29" was deleted by "user with id=29"
+[2024-02-19 18:28:16,100]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=30
+[2024-02-19 18:28:16,101]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=30" was created by "user with id=30"
+[2024-02-19 18:28:16,104]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=30" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:28:25,931]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=30" was deleted by "user with id=30"
+[2024-02-19 18:28:25,977]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=31
+[2024-02-19 18:28:25,978]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=31" was created by "user with id=31"
+[2024-02-19 18:28:25,980]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=31" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:28:36,176]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=31" was deleted by "user with id=31"
+[2024-02-19 18:28:36,208]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=32
+[2024-02-19 18:28:36,209]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=32" was created by "user with id=32"
+[2024-02-19 18:28:36,211]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=32" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-19 18:28:42,561]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=32" was deleted by "user with id=32"

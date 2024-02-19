@@ -12,18 +12,23 @@ import java.time.Duration;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.element;
 @Getter
-public class StartUpPage extends Page{
-    //private static final String LOGIN_PAGE_URL = "/login.html";
-    private SelenideElement acceptLicense = element("input[id='accept']");
-    private SelenideElement restoreFromBackupButton = element("input[id='restoreButton']");
+public class StartUpPage extends Page {
+    private SelenideElement createAdminAccountHeader = element(Selectors.byId("header"));
+    private SelenideElement header = element(Selectors.byId("header"));
+    private SelenideElement acceptLicense = element(Selectors.byId("accept"));
+    //private SelenideElement restoreFromBackupButton = element("input[id='restoreButton']");
     //private SelenideElement backFileUploaded = element("password");
-    private SelenideElement proceedButton = element("input[id='proceedButton']");
-    private SelenideElement continueButton = element("input[name='Continue']");
-    private SelenideElement header = element($("h1#header"));
+    private SelenideElement proceedButton = element(Selectors.byId("proceedButton"));
+    //private SelenideElement continueButton = element("input[name='Continue']");
+    private SelenideElement submitButton = element(Selectors.byType("submit"));
 
-    public StartUpPage open() {
-        Selenide.open("/");
+    public StartUpPage open(){
+        Selenide.open("/mnt");
         return this;
+    }
+
+    public SelenideElement getHeader() {
+        return createAdminAccountHeader.shouldBe(Condition.visible, Duration.ofSeconds(35));
     }
 
     public StartUpPage setupTeamCityServer(){
@@ -32,12 +37,12 @@ public class StartUpPage extends Page{
         waitUntilPageIsLoaded();
         proceedButton.click();
         waitUntilPageIsLoaded();
+        header.shouldBe(Condition.visible, Duration.ofMinutes(5));
         acceptLicense.shouldBe(Condition.enabled, Duration.ofMinutes(5));
         acceptLicense.scrollTo();
         acceptLicense.click();
-        continueButton.click();
+        submitButton.click();
         return this;
     }
 
 }
-

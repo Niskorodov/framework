@@ -2,7 +2,8 @@
 <suite name="UI Suite">
     <test name="UI Test">
         <classes>
-            <class name="ui.CreateNewBuildConfigTest"/>
+            <class name="com.example.teamcity.ui.CreateNewBuildConfigTest"/>
+            <class name="com.example.teamcity.ui.CreateNewProjectTest"/>
         </classes>
     </test>
 </suite>

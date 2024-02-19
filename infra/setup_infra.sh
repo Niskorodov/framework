@@ -43,7 +43,6 @@ echo "Start teamcity server"
 
 cd $teamcity_server_workdir
 
-#mkdir -p logs
 current=$(powershell.exe '$PWD -replace "\\", "/" -replace "C", "c"')
 
 docker run -d --name $teamcity_server_container_name\
@@ -69,21 +68,22 @@ echo "Teamcity Agent is running..."
 ################################
 echo "Start selenoid"
 
-cd .. && cd "$selenoid_workdir"
-#mkdir config
-mkdir -p config
-cp "$teamcity_tests_directory/infra/browsers.json" config/
-#c:/teamcity-testing-framework-main/teamcity_tests_infrastructure/teamcity_server/config/browsers.json
+cd .. && cd $selenoid_workdir
+
+mkdir config
+
+cp $teamcity_tests_directory/infra/browsers.json config/
+
+current=$(powershell.exe '$PWD -replace "\\", "/" -replace "C", "c"')
 
 docker run -d                                   \
---name $selenoid_container_name                                 \
--p 4444:4444                                    \
--v //var/run/docker.sock:/var/run/docker.sock    \
--v C:/teamcity-testing-framework-main/teamcity_tests_infrastructure/config/:/etc/selenoid:ro              \
-aerokube/selenoid:latest-release
+            --name $selenoid_container_name                                 \
+            -p 4444:4444                                    \
+            -v //var/run/docker.sock:/var/run/docker.sock    \
+            -v $current/config/:/etc/selenoid/:ro              \
+    aerokube/selenoid:latest-release
 
-cd ..
-image_names=($(awk -F'"' '/"image": "/{print $4}' "c:/teamcity-testing-framework-main/teamcity_tests_infrastructure/selenoid/config/browsers.json"))
+image_names=($(awk -F'"' '/"image": "/{print $4}' "$(pwd)/config/browsers.json"))
 
 echo "Pull all browser images: $image_names"
 
@@ -91,14 +91,15 @@ for image in "${image_names[@]}"; do
   docker pull $image
 done
 
-#docker run -d \
-#        --name $selenoid_container_name \
-#        -p 4444:4444 \
-#        -v //var/run/docker.sock:/var/run/docker.sock \
-#        -v $current/config/:/etc/selenoid/:ro \
-#        aerokube/selenoid:latest-release
+cd ..
+image_names=($(awk -F'"' '/"image": "/{print $4}' "c:/Users/artem.mindsadyrov/AquaProjects/teamcity-API-test/teamcity_tests_infrastructure/selenoid/config/browsers.json
+"))
 
+echo "Pull all browser images: $image_names"
 
+for image in "${image_names[@]}"; do
+  docker pull $image
+done
 
 ################################
 echo "Start selenoid-ui"
@@ -116,19 +117,28 @@ cd "$teamcity_tests_directory"
 echo "Current directory: $current"
 
 mvn clean test -Dtest=SetupTest#startUpTest
+#mvn clean test -Dtest=TeamcitySetupTest#startUpTest
 
 ################################
 echo "Parse superuser token"
 superuser_token=$(grep -o 'Super user authentication token: [0-9]*' $teamcity_tests_directory/$workdir/$teamcity_server_workdir/logs/teamcity-server.log | awk '{print $NF}')
 echo "Super user token: $superuser_token"
 
-################################
-echo "Run system tests"
-#cd .. && cd .. && cd ..
-
-echo "host=$ip:8111\nsuperUserToken=$superuser_token\nremote=http://$ip:4444/wd/hub\nbrowser=firefox" > $teamcity_tests_directory/src/main/resources/config.properties
+echo "superUserToken=$superuser_token" >> $teamcity_tests_directory/src/main/resources/config.properties
 cat $teamcity_tests_directory/src/main/resources/config.properties
 
+################################
+echo "Run system tests"
+
+config=$teamcity_tests_directory/src/main/resources/config.properties
+
+echo "host=$ip:8111" > $config
+echo "superUserToken=$superuser_token" >> $config
+echo "remote=http://$ip:4444/wd/hub" >> $config
+echo "browser=firefox" >> $config
+cat $config
+
+echo "Current directory: $(pwd)"
 echo "Run API tests"
 mvn test -DsuiteXmlFile=testng-suites/api-suite.xml
 
