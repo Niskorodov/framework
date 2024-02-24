@@ -17,6 +17,7 @@
         <assertj-core.version>3.22.0</assertj-core.version>
         <selenide.version>7.0.2</selenide.version>
         <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
+        <swagger-coverage.version>1.5.0</swagger-coverage.version>
     </properties>
     <dependencies>
         <dependency>
@@ -78,6 +79,11 @@
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
             <version>${selenide.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.viclovsky</groupId>
+            <artifactId>swagger-coverage-rest-assured</artifactId>
+            <version>${swagger-coverage.version}</version>
         </dependency>
     </dependencies>
     <build>

@@ -1,6 +1,0 @@
-[2024-02-19 18:26:39,329]   INFO - uildServer.TRIGGERS.vcsTrigger - TestNiAuussiOT_TestNwdDBoWJNy: Initializing the VCS trigger state for 1 branches
-[2024-02-19 18:26:39,397]   INFO - uildServer.TRIGGERS.vcsTrigger - TestNiAuussiOT_TestNwdDBoWJNy: Trigger state changed: lastTriggeredBy-<default>: -1:118636 was: null, lastProcessedModId-<default>: -1 was: null
-[2024-02-19 18:26:40,009]   INFO - uildServer.TRIGGERS.vcsTrigger - TestNiAuussiOT_TestNwdDBoWJNy: Initializing the VCS trigger state for 1 branches
-[2024-02-19 18:28:04,976]   INFO - uildServer.TRIGGERS.vcsTrigger - TestANblrgEyTH_TestFnYAwAtpNV: Initializing the VCS trigger state for 1 branches
-[2024-02-19 18:28:04,979]   INFO - uildServer.TRIGGERS.vcsTrigger - TestANblrgEyTH_TestFnYAwAtpNV: Trigger state changed: lastTriggeredBy-<default>: -1:118636 was: null, lastProcessedModId-<default>: -1 was: null
-[2024-02-19 18:28:05,340]   INFO - uildServer.TRIGGERS.vcsTrigger - TestANblrgEyTH_TestFnYAwAtpNV: Initializing the VCS trigger state for 1 branches
