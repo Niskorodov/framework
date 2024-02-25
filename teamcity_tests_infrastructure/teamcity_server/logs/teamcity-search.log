@@ -1,0 +1,31 @@
+[2024-02-25 19:14:13,057]   WARN [:58.693), node id: MAIN_SERVER] - de.build.index.BuildPTRIndexer [] - Indexer initialization started null
+[2024-02-25 19:14:13,068]   INFO [:58.693), node id: MAIN_SERVER] - de.build.index.BuildPTRIndexer [] - Indexer syncronization start.
+[2024-02-25 19:14:13,069]   INFO [:58.693), node id: MAIN_SERVER] - de.build.index.BuildPTRIndexer [] - Starting to sync metadata
+[2024-02-25 19:14:13,092]   INFO [groundIndexer (metadata) (1/2)] - de.build.index.BuildPTRIndexer [metadata] - Index [metadata] sync started
+[2024-02-25 19:14:13,110]   INFO [groundIndexer (metadata) (1/2)] - de.build.index.BuildPTRIndexer [metadata] - Index [metadata] sync execution statistic: 
+StopWatch 'Sync metadata': running time = 16945650 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+013040912  077%  Index sync getIndexedBuildIds
+000000731  000%  Index sync indexed build count: 0
+003904007  023%  History getDbBuildList null (null) (5000)
+
+
+[2024-02-25 19:14:13,154]   WARN [:58.693), node id: MAIN_SERVER] - de.build.index.BuildPTRIndexer [] - Indexer initialization started null
+[2024-02-25 19:14:13,487]   INFO [:58.693), node id: MAIN_SERVER] - search.lucene.LuceneIndexState [] - Lucene index starting in MMapDirectory@/data/teamcity_server/datadir/system/caches/search lockFactory=org.apache.lucene.store.NativeFSLockFactory@425d2608
+[2024-02-25 19:14:13,567]   INFO [:58.693), node id: MAIN_SERVER] - de.build.index.BuildPTRIndexer [] - Indexer syncronization start.
+[2024-02-25 19:14:13,568]   INFO [:58.693), node id: MAIN_SERVER] - de.build.index.BuildPTRIndexer [] - Starting to sync Local search
+[2024-02-25 19:14:13,569]   INFO [ndIndexer (Local search) (1/2)] - de.build.index.BuildPTRIndexer [Local search] - Index [Local search] sync started
+[2024-02-25 19:14:13,569]   WARN [:58.693), node id: MAIN_SERVER] - de.build.index.BuildPTRIndexer [] - Indexer initialization started null
+[2024-02-25 19:14:13,573]   INFO [ndIndexer (Local search) (1/2)] - de.build.index.BuildPTRIndexer [Local search] - Index [Local search] sync execution statistic: 
+StopWatch 'Sync Local search': running time = 3971191 ns
+---------------------------------------------
+ns         %     Task name
+---------------------------------------------
+003240794  082%  Index sync getIndexedBuildIds
+000000200  000%  Index sync indexed build count: 0
+000730197  018%  History getDbBuildList null (null) (5000)
+
+
+[2024-02-25 19:14:13,587]   INFO [:58.693), node id: MAIN_SERVER] - de.build.index.BuildPTRIndexer [] - Indexer syncronization start.

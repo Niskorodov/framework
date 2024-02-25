@@ -1,0 +1,85 @@
+[2024-02-25 19:13:56,247]   WARN [ssing plugins 1] - data.finder.TypedFinderBuilder - AgentPoolFinder:projectPool, hidden() called more than once.
+[2024-02-25 19:13:56,254]   WARN [ssing plugins 1] - data.finder.TypedFinderBuilder - AgentPoolFinder:ownerProject, hidden() called more than once.
+[2024-02-25 19:13:56,258]   WARN [ssing plugins 1] - data.finder.TypedFinderBuilder - AgentPoolFinder:orphanedPool, hidden() called more than once.
+[2024-02-25 19:14:00,733]   WARN [ssing plugins 1] - data.finder.TypedFinderBuilder - UserFinder:hasPassword, hidden() called more than once.
+[2024-02-25 19:14:00,735]   WARN [ssing plugins 1] - data.finder.TypedFinderBuilder - UserFinder:password, hidden() called more than once.
+[2024-02-25 19:14:00,745]   WARN [ssing plugins 1] - data.finder.TypedFinderBuilder - UserFinder:permission, hidden() called more than once.
+[2024-02-25 19:14:01,068]   WARN [ssing plugins 1] - data.finder.TypedFinderBuilder - null:entityType, hidden() called more than once.
+[2024-02-25 19:14:01,069]   WARN [ssing plugins 1] - data.finder.TypedFinderBuilder - null:entityInternalId, hidden() called more than once.
+[2024-02-25 19:14:01,071]   WARN [ssing plugins 1] - data.finder.TypedFinderBuilder - null:hidden, hidden() called more than once.
+[2024-02-25 19:14:01,121]   WARN [ssing plugins 1] - data.finder.TypedFinderBuilder - CloudImageFinder:compatibleBuildType, attempt to redefine description: old: 'Build type locator.', new: 'build types locator'
+[2024-02-25 19:14:05,684]   INFO [id: MAIN_SERVER] - er.rest.APIController/rest-api - Listening for paths [/app/rest/2018.1, /app/rest, /app/rest/latest, /app/rest/ui, /api, /app/graphql] in plugin 'rest-api'
+[2024-02-25 19:14:05,751]   INFO [in 'rest-api' 1] - nsAwareResourceConfig/rest-api - Packages registered by rest extensions: [jetbrains.buildServer.compare, jetbrains.buildServer.server.restcontrib]
+[2024-02-25 19:14:06,495]   INFO [in 'rest-api' 1] - nsAwareResourceConfig/rest-api - Root resource classes found:
+  class jetbrains.buildServer.server.rest.request.ChangeRequest
+  class jetbrains.buildServer.server.rest.request.FederationRequest
+  class jetbrains.buildServer.server.rest.request.HealthRequest
+  class jetbrains.buildServer.server.rest.request.pages.problems.ProblemEntriesRequest
+  class jetbrains.buildServer.server.rest.request.AgentRequest
+  class jetbrains.buildServer.server.rest.request.CloudRequest
+  class jetbrains.buildServer.server.rest.request.GroupRequest
+  class jetbrains.buildServer.server.rest.request.TwoFactorRequest
+  class jetbrains.buildServer.server.rest.request.ProjectRequest
+  class jetbrains.buildServer.server.rest.request.ProblemRequest
+  class jetbrains.buildServer.server.rest.request.DebugRequest
+  class jetbrains.buildServer.server.rest.request.VcsRootRequest
+  class jetbrains.buildServer.server.rest.request.BuildTypeRequest
+  class jetbrains.buildServer.server.rest.request.InvestigationRequest
+  class jetbrains.buildServer.server.rest.request.BuildRequest
+  class jetbrains.buildServer.server.restcontrib.cctray.request.CCTrayRequest
+  class jetbrains.buildServer.server.rest.request.UserRequest
+  class jetbrains.buildServer.server.rest.request.TestRequest
+  class jetbrains.buildServer.server.rest.request.RootApiRequest
+  class jetbrains.buildServer.server.rest.request.TestOccurrenceRequest
+  class jetbrains.buildServer.server.rest.request.BuildQueueRequest
+  class jetbrains.buildServer.server.rest.swagger.SwaggerUI
+  class jetbrains.buildServer.server.rest.request.ServerRequest
+  class jetbrains.buildServer.server.rest.request.ServerAuthRequest
+  class jetbrains.buildServer.server.rest.request.VcsRootInstanceRequest
+  class jetbrains.buildServer.server.rest.request.AgentTypeRequest
+  class jetbrains.buildServer.server.rest.request.RoleRequest
+  class jetbrains.buildServer.server.rest.request.NodesRequest
+  class jetbrains.buildServer.server.rest.request.MuteRequest
+  class jetbrains.buildServer.server.rest.request.ServerGlobalSettingsRequest
+  class jetbrains.buildServer.server.rest.request.TestScopesRequest
+  class jetbrains.buildServer.server.rest.request.VersionedSettingsRequest
+  class jetbrains.buildServer.server.rest.request.AvatarRequest
+  class jetbrains.buildServer.server.rest.request.AuditRequest
+  class jetbrains.buildServer.server.rest.request.AgentPoolRequest
+  class jetbrains.buildServer.server.rest.request.DeploymentDashboardRequest
+  class jetbrains.buildServer.server.rest.request.ProblemOccurrenceRequest
+  class jetbrains.buildServer.server.rest.request.ChangeLogRequest
+  class jetbrains.buildServer.server.rest.swagger.SwaggerResource
+  class jetbrains.buildServer.compare.rest.BuildsCompareEndpoint
+[2024-02-25 19:14:06,496]   INFO [in 'rest-api' 1] - nsAwareResourceConfig/rest-api - Provider classes found:
+  class jetbrains.buildServer.server.rest.swagger.SwaggerSerializers
+  class jetbrains.buildServer.server.rest.swagger.SwaggerConfigProvider
+  class jetbrains.buildServer.server.rest.swagger.SwaggerReaderConfigProvider
+[2024-02-25 19:14:06,496]   INFO [in 'rest-api' 1] - nsAwareResourceConfig/rest-api - Locator classes found:
+  class jetbrains.buildServer.server.rest.data.finder.syntax.CloudImageDimensions
+  class jetbrains.buildServer.server.rest.data.build.TagFinder
+  class jetbrains.buildServer.server.rest.data.finder.syntax.DeploymentDashboardDimensions
+  class jetbrains.buildServer.server.rest.data.finder.impl.UserGroupFinder
+  class jetbrains.buildServer.server.rest.data.finder.impl.VcsRootFinder
+  class jetbrains.buildServer.server.rest.data.finder.impl.TeamCityNodeFinder
+  class jetbrains.buildServer.server.rest.data.finder.impl.BuildPromotionFinder
+  class jetbrains.buildServer.server.rest.data.finder.impl.BranchFinder
+  class jetbrains.buildServer.server.rest.data.finder.syntax.AgentTypeDimensions
+  class jetbrains.buildServer.server.rest.data.finder.impl.BuildTypeFinder
+  class jetbrains.buildServer.server.rest.data.finder.impl.ProjectFinder
+  class jetbrains.buildServer.server.rest.data.finder.syntax.MuteDimensions
+  class jetbrains.buildServer.server.rest.data.problem.TestOccurrenceFinder
+  class jetbrains.buildServer.server.rest.data.finder.syntax.CloudInstanceDimensions
+  class jetbrains.buildServer.server.rest.data.problem.TestFinder
+  class jetbrains.buildServer.server.rest.data.problem.ProblemFinder
+  class jetbrains.buildServer.server.rest.data.finder.impl.UserFinder
+  class jetbrains.buildServer.server.rest.data.problem.ProblemOccurrenceFinder
+  class jetbrains.buildServer.server.rest.data.finder.syntax.CloudProfileDimensions
+  class jetbrains.buildServer.server.rest.data.finder.impl.AgentFinder
+  class jetbrains.buildServer.server.rest.data.finder.impl.AuditEventFinder
+  class jetbrains.buildServer.server.rest.data.finder.impl.VcsRootInstanceFinder
+  class jetbrains.buildServer.server.rest.data.finder.syntax.InvestigationDimensions
+  class jetbrains.buildServer.server.rest.data.finder.impl.AgentPoolFinder
+  class jetbrains.buildServer.server.rest.data.finder.impl.QueuedBuildFinder
+  class jetbrains.buildServer.server.rest.data.finder.syntax.DeploymentInstanceDimensions
+  class jetbrains.buildServer.server.rest.data.finder.impl.ChangeFinder

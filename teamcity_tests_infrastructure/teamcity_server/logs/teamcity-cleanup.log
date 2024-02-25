@@ -1,0 +1,3 @@
+[2024-02-25 19:14:05,735]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup start time has been set to 3:00 daily
+[2024-02-25 19:14:05,740]   INFO -  jetbrains.buildServer.CLEANUP - The next cleanup time is 2024-02-26 03:00:00.000
+[2024-02-25 19:14:05,741]   INFO -  jetbrains.buildServer.CLEANUP - Cleanup is enabled
